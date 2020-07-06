@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.coordinatelayoutdemo.coordinate.MyCoordinateLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/head" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#1DB954" />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/img">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/scroll_text" />
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</com.example.coordinatelayoutdemo.coordinate.MyCoordinateLayout>

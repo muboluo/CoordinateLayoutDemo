@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">LSN-16-NestedScrolling</string>
+    <string name="scroll_text">
+\n\n
+        text from :https://android-developers.googleblog.com/2020/06/unwrapping-android-11-beta-plus-more.html
+        \n\n
+
+        Unwrapping the Android 11 Beta, plus more developer updates
+        \n\n
+10 June 2020
+\n\n
+Posted by Stephanie Cuthbertson, Director, Product Management
+\n\n
+Editor’s note: The global community of Android developers has always been a powerful force in shaping the direction of the Android platform;
+        each and every voice matters to us. We have cancelled the virtual launch event to allow people to focus on important discussions around racial justice in the United States.
+\n\n
+        Instead, we are releasing the Android 11 Beta today in a much different form, via short-form videos and web pages that you can consume at your own pace when the time is right for you.
+\n\n
+        Millions of developers around the world build their business with Android, and we\'re releasing the Beta today to continue to support these developers with the latest tools.
+\n\n
+        We humbly thank those who are able to offer their feedback on this release.
+\n\n
+Today, we’re unwrapping the Beta release for Android 11 as well as the latest updates for developers from Kotlin coroutines, to progress on the Jetpack Compose toolkit, to faster builds in Android Studio, even a refreshed experience for the Play Console.
+\n\n
+Android 11 Beta: now available
+\n\n
+You’ve been helping us with feedback on the Android 11 developer previews since February, and today we released the first Beta of Android 11 focused on three key themes: People, Controls, and Privacy.
+\n\n
+People: we’re making Android more people-centric and expressive,
+        reimagining the way we have conversations on our phones, and building an OS that can recognize and prioritize the most important people in your life:
+\n\n
+Conversation notifications appear in a dedicated section at the top of the shade, with a people-forward design and conversation specific actions,
+        such as opening the conversation as a bubble, creating a conversation shortcut on the home screen, or setting a reminder.
+\n\n
+
+Bubbles help users to keep conversations in view and accessible while multitasking.
+\n\n
+        Messaging and chat apps should use the Bubbles API on notifications to enable this in Android 11.
+
+\n\n
+Consolidated keyboard suggestions let Autofill apps and Input Method
+        https://developer.android.com/preview/overview#timeline Editors (IMEs) securely offer context-specific entities and strings directly in an IME’s suggestion strip,
+        where they are most convenient for users.
+Voice Access, for people who control their phone entirely by voice, now includes an on-device visual cortex that understands screen content and context,
+        and generates labels and access points for accessibility commands.
+
+\n\n
+        Developer friendliness: We want to make it easy for developers to take advantage of the new release, so to make compat testing easier, we’ve:
+\n\n
+Gated most breaking changes until you target Android 11 (so they won’t take effect until you explicitly change your manifest)
+\n\n
+Added new UI in developer options to let you toggle many of these changes for testing
+added a new Platform Stability release milestone where all API and behavior changes will be complete,
+        so you can finalize your app updates knowing the platform is stable.
+\n\n
+
+Android 11 also includes a number of other developer productivity improvements like wireless ADB debugging, ADB incremental for faster installs of large APKs, and more nullability annotations on platform APIs (to catch issues at build time instead of runtime), and more.
+\n\n
+The first Beta for Android 11 is available today, with final SDK and NDK APIs and new features to try in your apps. If you have a Pixel 2, 3, 3a, or 4 device, enroll here to get Android 11 Beta updates over-the-air. As always, downloads for Pixel and the Android Emulator are also available. To learn about all of the developer features in Android 11, visit the Android 11 developer site.
+\n\n
+Modern Android development
+Over the past several years, the Android team has been hard at work improving the mobile developer experience, to make you more productive. This includes the Android Studio IDE, a great language (Kotlin!), Jetpack libraries to make common tasks easy, and Android App Bundles to improve app distribution. Today we call this modern Android development - bringing you the best of Android to make you as efficient and productive as possible.
+\n\n
+
+    </string>
+</resources>
